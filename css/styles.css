@@ -30,22 +30,22 @@ img {
   display: block;
   max-width: 100%;
 }
-.container-header {
+.container {
   width: 1158px;
   margin: 0 autp;
   padding: 0 15px;
 }
-.div-menu {
+.header-container {
   display: flex;
-  flex-flow: row nowrap;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  align-items: center;
 }
+
 header {
   height: 72px;
   border-bottom: 1px solid #e7e9fc;
+  display: flex;
 }
-.header .first-nav {
+.first-nav {
   display: flex;
   align-items: center;
 }
@@ -69,6 +69,7 @@ header {
   display: flex;
   gap: 40px;
 }
+
 .menu {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -88,6 +89,7 @@ header {
 .address {
   font-style: normal;
   display: flex;
+  align-items: center;
 }
 .address .second-ul {
   display: flex;
@@ -110,8 +112,9 @@ header {
 }
 .first-section {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
-.first-section .main-text {
+.main-text {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 56px;
@@ -120,12 +123,12 @@ header {
   text-align: center;
   color: #fff;
   display: flex;
-  padding-bottom: 48px;
-  margin-left: 472px;
-  margin-right: 472px;
+  justify-content: center;
+  max-width: 496px;
+  margin: 0 472px;
 }
 
-.first-section .button {
+.button {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -134,14 +137,13 @@ header {
   color: #fff;
   background-color: #4d5ae5;
   cursor: pointer;
-  display: flex;
-  margin-left: 636px;
-  margin-right: 636px;
+  display: block;
   padding: 0;
-  min-width: 173px;
+  min-width: 169px;
   height: 56px;
-  padding: 16px 34px;
-  white-space: nowrap;
+  border: none;
+  border-radius: 4px;
+  margin-left: 636px;
 }
 .first-section .button:hover {
   background-color: #404bbf;
