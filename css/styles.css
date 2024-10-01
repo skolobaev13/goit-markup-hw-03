@@ -39,6 +39,7 @@ img {
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 header {
@@ -49,6 +50,7 @@ header {
 .first-nav {
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -60,7 +62,6 @@ header {
   color: #4d5ae5;
   display: flex;
   margin-right: 76px;
-  margin-left: 156px;
 }
 .logo span {
   color: #2e2f42;
@@ -114,7 +115,7 @@ header {
 .first-section {
   background-color: #2e2f42;
   padding: 188px 0;
-  max-width: 1158px;
+  margin: auto;
 }
 .main-text {
   font-family: "Roboto", sans-serif;
@@ -171,9 +172,7 @@ header {
 .third-ul {
   display: flex;
   flex-direction: row;
-  margin: 120px 156px;
   gap: 24px;
-  height: 104px;
 }
 .advantages {
   width: calc((100% - 72px) / 4);
@@ -201,6 +200,8 @@ header {
   background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
+  margin: auto;
+  width: 1158px;
 }
 .name-third {
   font-family: "Roboto", sans-serif;
@@ -216,8 +217,6 @@ header {
 .four-ul {
   display: flex;
   flex-direction: row;
-  margin-left: 156px;
-  margin-right: 156px;
   gap: 24px;
   align-items: center;
 }
@@ -250,7 +249,6 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-bottom: 32px;
   text-align: center;
 }
 .four-section {
@@ -298,13 +296,11 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-bottom: 48px;
 }
 .footer {
   background-color: #2e2f42;
-  max-width: 1158px;
-  height: 312px;
   padding: 100px 0;
+  margin: auto;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -315,7 +311,6 @@ header {
   text-transform: uppercase;
   color: #4d5ae5;
   display: inline-block;
-  padding-top: 100px;
   margin-bottom: 16px;
 }
 .footer-span {
