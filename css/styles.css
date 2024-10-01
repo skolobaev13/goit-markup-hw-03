@@ -160,12 +160,13 @@ header {
   position: absolute;
   width: 1px;
   height: 1px;
-  padding: 0;
   margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .third-ul {
   display: flex;
@@ -176,6 +177,8 @@ header {
 }
 .advantages {
   width: calc((100% - 72px) / 4);
+  margin: 0;
+  padding-left: 0;
 }
 .name-section {
   font-family: "Roboto", sans-serif;
@@ -196,7 +199,8 @@ header {
 }
 .third-section {
   background-color: #f4f4fd;
-  padding: 128px 0;
+  padding-top: 128px;
+  padding-bottom: 128px;
 }
 .name-third {
   font-family: "Roboto", sans-serif;
@@ -277,7 +281,7 @@ header {
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 .app-name {
   font-family: "Roboto", sans-serif;
@@ -294,6 +298,7 @@ header {
   letter-spacing: 0.02em;
   color: #434455;
   padding-bottom: 48px;
+  margin-bottom: 8px;
 }
 .footer {
   background-color: #2e2f42;
