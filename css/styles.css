@@ -30,6 +30,7 @@ img {
   display: block;
   max-width: 100%;
 }
+
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -113,6 +114,7 @@ header {
 .first-section {
   background-color: #2e2f42;
   padding: 188px 0;
+  max-width: 1158px;
 }
 .main-text {
   font-family: "Roboto", sans-serif;
@@ -123,7 +125,8 @@ header {
   text-align: center;
   color: #fff;
   max-width: 496px;
-  margin-left: 472px;
+  align-items: center;
+  margin: auto;
 }
 
 .button {
@@ -140,7 +143,8 @@ header {
   height: 56px;
   border: none;
   border-radius: 4px;
-  margin-left: 636px;
+  margin: auto;
+  margin-top: 48px;
 }
 .button:hover {
   background-color: #404bbf;
@@ -149,7 +153,10 @@ header {
 .button:focus {
   background-color: #404bbf;
 }
-.hidden {
+.second-section {
+  padding: 120px 0;
+}
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -167,6 +174,9 @@ header {
   gap: 24px;
   height: 104px;
 }
+.advantages {
+  width: calc((100% - 72px) / 4);
+}
 .name-section {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -174,6 +184,7 @@ header {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .second-par {
@@ -185,6 +196,7 @@ header {
 }
 .third-section {
   background-color: #f4f4fd;
+  padding: 128px 0;
 }
 .name-third {
   font-family: "Roboto", sans-serif;
@@ -195,6 +207,7 @@ header {
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .four-ul {
   display: flex;
@@ -211,16 +224,21 @@ header {
   gap: 8px;
   align-items: center;
   justify-content: center;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
-.third-li .name {
+.name-container {
+  padding: 32px 0;
+}
+.name {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-top: 32px;
-  padding-bottom: 8px;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .third-p {
   font-family: "Roboto", sans-serif;
@@ -229,18 +247,26 @@ header {
   letter-spacing: 0.02em;
   color: #434455;
   padding-bottom: 32px;
+  text-align: center;
+}
+.four-section {
+  padding: 120px 0;
 }
 .five-ul {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding-left: 156px;
-  padding-right: 156px;
   align-content: stretch;
-  gap: 24px;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 .five-li {
   width: calc((100% - 48px) / 3);
+}
+.app-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .four-name {
   font-family: "Roboto", sans-serif;
@@ -251,7 +277,7 @@ header {
   color: #2e2f42;
   text-align: center;
   text-transform: capitalize;
-  padding-bottom: 72px;
+  margin-bottom: 8px;
 }
 .app-name {
   font-family: "Roboto", sans-serif;
@@ -271,8 +297,9 @@ header {
 }
 .footer {
   background-color: #2e2f42;
-  max-width: 1440px;
+  max-width: 1158px;
   height: 312px;
+  padding: 100px 0;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -282,10 +309,9 @@ header {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: flex;
+  display: inline-block;
   padding-top: 100px;
-  padding-left: 156px;
-  padding-bottom: 15px;
+  margin-bottom: 16px;
 }
 .footer-span {
   color: #f4f4fd;
@@ -297,7 +323,5 @@ header {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   display: flex;
-  padding-left: 130px;
-  padding-right: 1046px;
-  padding-bottom: 101px;
+  max-width: 264px;
 }
