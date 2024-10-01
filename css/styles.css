@@ -199,8 +199,8 @@ header {
 }
 .third-section {
   background-color: #f4f4fd;
-  padding-top: 128px;
-  padding-bottom: 128px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .name-third {
   font-family: "Roboto", sans-serif;
@@ -290,6 +290,7 @@ header {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .four-p {
   font-family: "Roboto", sans-serif;
@@ -298,7 +299,6 @@ header {
   letter-spacing: 0.02em;
   color: #434455;
   padding-bottom: 48px;
-  margin-bottom: 8px;
 }
 .footer {
   background-color: #2e2f42;
